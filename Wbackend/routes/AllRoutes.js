@@ -163,7 +163,7 @@ const upload = multer();
 // const jwt = require('jsonwebtoken');
 // const bcrypt = require('bcryptjs');
 // const auth = require('./au');
-const stripe = require('stripe')('sk_test_51OyWJxSAZ9k8UIed5OjqpD8P8Nxxjdbbfl33tFHWGE8mkgmnIqPgFzsZRLq0FUvshkCDqPCf0Yz2a4WDCDWf0KP300QMzcxguM');
+const stripe = require('stripe')('//stripe-secret-key');
 
 
 allroutes.get('/',(req,res) => {
